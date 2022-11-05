@@ -162,8 +162,8 @@
       </li>
     </ul>
 
-    <div class="container mx-auto my-8 px-4 flex flex-col lg:flex-row lg:mr-8">
-      <div class="file-explorer-container w-full lg:w-3/4 mr-8">
+    <div class="container mx-auto my-8 px-4 flex flex-col lg:flex-row">
+      <div class="file-explorer-container w-full lg:w-3/4 lg:mr-8">
         <div class="branch-navigation flex items-center justify-between">
           <div class="flex items-center space-x-2">
             <button class="border border-gray-400 rounded-md px-4 py-1 bg-gray-100 hover:bg-gray-200 flex items-center space-x-2">
