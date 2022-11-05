@@ -51,7 +51,7 @@
         <div class="flex items-center text-xl ml-2 space-x-2">
           <a class="text-blue-600 hover:underline">HMaxWilson</a>
           <span>/</span>
-          <a class="text-blue-600 font-semibold hover:underline">Portfolio</a>
+          <a class="text-blue-600 font-semibold hover:underline">tailwindcss</a>
         </div>
       </div>
       <div class="flex space-x-2">
@@ -323,9 +323,7 @@
         </div>
         <div class="readme-container rounded-md border border-gray-400 px-4 py-4 mt-4">
           <h4 class="font-semibold">README.md</h4>
-          <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid ea eius fugit, harum incidunt ipsam maxime molestiae nam porro ratione repellendus reprehenderit similique vitae voluptate? Deserunt hic id iure, quasi quo recusandae! At dolores exercitationem porro tempora! Accusantium aut cupiditate dolor ea minus molestias porro quod repudiandae similique voluptas! Deleniti dolore ea eius, labore laudantium nostrum omnis quaerat repudiandae sint. Animi assumenda debitis deleniti eos exercitationem, explicabo ipsum, laudantium odit optio quae quibusdam reprehenderit saepe tempora? Atque dignissimos dolorum, earum ex, expedita minus nam nulla, quam quasi repellendus reprehenderit soluta unde voluptate? Ab, accusamus accusantium alias at blanditiis delectus deleniti doloribus eaque eos harum id itaque iusto libero magnam magni minima molestias nam nemo nihil nisi perspiciatis quibusdam repellat reprehenderit saepe sed sint temporibus. Cupiditate dignissimos dolor dolore doloribus et, eveniet illum iusto nostrum numquam, recusandae sit veritatis. Ad, doloremque inventore mollitia non veritatis voluptatum. Asperiores atque eum illum minus modi necessitatibus nisi quae voluptas? Accusantium adipisci aliquam, amet cum dolores enim error eum eveniet exercitationem explicabo hic inventore ipsum iure laudantium maxime mollitia, nihil nulla numquam optio placeat porro quam quidem quod, sequi soluta suscipit voluptatem. Aliquid, commodi deserunt dolores esse facilis odit quam vel! Dolor, quo, repellat?
-          </div>
+          <div v-html="readme" class="prose max-w-none"/>
         </div>
 
       </div>
@@ -494,3 +492,15 @@
 
   </div>
 </template>
+
+<script>
+import README from '~/Github-README.md'
+
+export default {
+  computed: {
+    readme() {
+      return README
+    }
+  }
+}
+</script>
