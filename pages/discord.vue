@@ -1,8 +1,36 @@
 <template>
   <div class="flex">
-    <div class="w-20 flex flex-none min-h-screen h-screen">
+    <div class="bg-gray-900 w-20 flex-none flex flex-col min-h-screen h-screen px-2 py-2">
       <div class="overflow-y-auto">
-        logos
+        <ul class="text-center">
+          <li><a href="#"><img class="h-12 w-12 bg-gray-800 rounded-full p-2 mx-auto" src="~/assets/discord-logo.webp" alt="discord"></a></li>
+          <li class="border-b boreder-gray-700 mx-4 mt-3"></li>
+          <li class="mt-3"><a href="#"><img class="h-12 w-12 bg-gray-800 rounded-[100%] mx-auto transition-all ease-in-out duration-400 hover:rounded-[12px]" src="https://via.placeholder.com/150/FF0000" alt="discord"></a></li>
+          <li class="mt-3"><a href="#"><img class="h-12 w-12 bg-gray-800 rounded-[100%] mx-auto transition-all ease-in-out duration-400 hover:rounded-[12px]" src="https://via.placeholder.com/150/00FF00" alt="discord"></a></li>
+          <li class="mt-3"><a href="#"><img class="h-12 w-12 bg-gray-800 rounded-[100%] mx-auto transition-all ease-in-out duration-400 hover:rounded-[12px]" src="https://via.placeholder.com/150/0000FF" alt="discord"></a></li>
+          <li class="mt-3">
+            <a href="#" class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white inline-block rounded-[100%] transition-all ease-in-out duration-200 hover:rounded-[12px]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 p-3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+              </svg>
+            </a>
+          </li>
+          <li class="mt-3">
+            <a href="#" class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white inline-block rounded-[100%] transition-all ease-in-out duration-200 hover:rounded-[12px]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 p-3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+              </svg>
+            </a>
+          </li>
+          <li class="border-b boreder-gray-700 mx-4 mt-3"></li>
+          <li class="mt-3">
+            <a href="#" class="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white inline-block rounded-[100%] transition-all ease-in-out duration-200 hover:rounded-[12px]">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 p-3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 8.25H7.5a2.25 2.25 0 00-2.25 2.25v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H15M9 12l3 3m0 0l3-3m-3 3V2.25" />
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     <div class="flex flex-col min-h-screen h-screen">
