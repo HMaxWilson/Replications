@@ -332,7 +332,51 @@
               </div>
             </div>
           </div>
-          <div class="bg-indigo-500 w-56 flex-none overflow-y-auto">User panel</div>
+          <div class="bg-gray-800 w-56 flex-none px-3 py-3 overflow-y-auto">
+            <h3 class="uppercase tracking-wide font-semibold text-xs text-gray-500 mb-2">Core Team — 1</h3>
+            <ul class="mb-6">
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-750 py-1 my-2">
+                <a href="#" class="flex items-center">
+                  <span><a href="#"><img class="w-8 h-8 rounded-full" src="https://avatars.githubusercontent.com/u/33638862?s=40&amp;v=4" alt="@HMaxWilson" size="20"></a></span>
+                  <span class="ml-2">HMaxWilson</span>
+                </a>
+              </li>
+            </ul>
+
+            <h3 class="uppercase tracking-wide font-semibold text-xs text-gray-500 mb-2">Online — 5</h3>
+            <ul class="mb-6">
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-750 py-1 my-2">
+                <a href="#" class="flex items-center">
+                  <span><a href="#"><img class="h-8 w-8 rounded-full" src="https://avatars.githubusercontent.com/u/88713688?s=64&amp;v=4" alt="@ascwnyc"></a></span>
+                  <span class="ml-2">ascw</span>
+                </a>
+              </li>
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-750 py-1 my-2">
+                <a href="#" class="flex items-center">
+                  <span><a href="#"><img class="h-8 w-8 rounded-full" src="https://avatars.githubusercontent.com/u/3620144?s=64&amp;v=4" alt="@JackDallas"></a></span>
+                  <span class="ml-2">DackJallas</span>
+                </a>
+              </li>
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-750 py-1 my-2">
+                <a href="#" class="flex items-center">
+                  <span><a href="#"><img class="h-8 w-8 rounded-full" src="https://avatars.githubusercontent.com/u/15728855?s=100&amp;v=4" alt="@khendricksen"></a></span>
+                  <span class="ml-2">HylanKendricksen</span>
+                </a>
+              </li>
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-750 py-1 my-2">
+                <a href="#" class="flex items-center">
+                  <span><a href="#"><img class="h-8 w-8 rounded-full" src="https://avatars.githubusercontent.com/u/9324232?s=100&amp;v=4" alt="@BakaZora"></a></span>
+                  <span class="ml-2">BakaZora</span>
+                </a>
+              </li>
+              <li class="text-gray-500 px-2 hover:text-gray-200 hover:bg-gray-750 py-1 my-2">
+                <a href="#" class="flex items-center">
+                  <span><a href="#"><img class="h-8 w-8 rounded-full" src="https://avatars.githubusercontent.com/u/53888715?s=64&amp;v=4" alt="@smix404"></a></span>
+                  <span class="ml-2">smix404</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
